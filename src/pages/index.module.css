@@ -8,6 +8,32 @@
   padding: 0 0.5rem;
 }
 
+.gameBoard {
+  width: 270px;
+  height: 360px;
+  background-color: rgb(185 185 185);
+}
+
+.boardStyle {
+  display: flex;
+  flex-wrap: wrap;
+  width: 216px;
+  height: 216px;
+  margin: 140px 25px 0 ;
+}
+
+.cellStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
 .sampleStyle {
   width: 30px;
   height: 30px;
